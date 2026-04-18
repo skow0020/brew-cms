@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beers",
+  "info": {
+    "singularName": "beer",
+    "pluralName": "beers",
+    "displayName": "Beer",
+    "description": "Manage beers on tap and in inventory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "style": {
+      "type": "string"
+    },
+    "abv": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "text"
+    },
+    "onTap": {
+      "type": "boolean"
+    }
+  }
+}
